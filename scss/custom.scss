@@ -6,3 +6,15 @@ $primary:  rgb(225, 160, 225)
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+header{
+    background-image: url("../imagenes/imagen\ beige\ de\ fondo.jpg");
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+@include media-breakpoint-up (md){
+    header {
+        height:400px;
+    }
+}
