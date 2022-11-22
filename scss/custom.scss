@@ -1,20 +1,14 @@
 
 @import url("https://fonts.googleapis.com/css2? family= Merriweather & display=swap");
  
-$font-family-base:'Merriweather', serif;
-$primary:  rgb(225, 160, 225)
+@import "variables";
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-header{
-    background-image: url("../imagenes/hilos.jpg");
-    height: 200px;
-    background-position: center;
-    background-size: cover;
+@import "index"
+
+form {
+
 }
-@include media-breakpoint-up (md){
-    header {
-        height:400px;
-    }
-}
+

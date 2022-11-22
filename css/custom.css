@@ -1,9 +1,9 @@
 /* Error: expected ";".
- *   ,
- * 5 | $primary:  rgb(225, 160, 225)
- *   |                              ^
- *   '
- *   scss\custom.scss 5:30  root stylesheet */
+ *    ,
+ * 11 | form {
+ *    |      ^
+ *    '
+ *   scss\custom.scss 11:6  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected ";".\a   \2577 \a 5 \2502  $primary:  rgb(225, 160, 225)\d\a   \2502                               ^\a   \2575 \a   scss\\custom.scss 5:30  root stylesheet';
+  content: 'Error: expected ";".\a    \2577 \a 11 \2502  form {\d\a    \2502       ^\a    \2575 \a   scss\\custom.scss 11:6  root stylesheet';
 }
