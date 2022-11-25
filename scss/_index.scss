@@ -1,11 +1,21 @@
 header{
-    background-image: url("../imagenes/hilos.jpg");
-    height: 200px;
+    background-image: url("../imagenes/imagen\ de\ fondo\ facial.jpg");
+    height: 400px;
     background-position: center;
     background-size: cover;
 }
 @include media-breakpoint-up (md){
     header {
-        height:400px;
+        height:600px;
     }
+}
+img-thumbnail {
+
+padding: 25rem;
+margin: 20px;
+background-color: #dfbfbf;
+border: 4px solid #e1c4d96b;
+border-radius: .375rem;
+max-width: 80%;
+height: auto;
 }
