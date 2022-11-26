@@ -1,13 +1,3 @@
-/* Error: Undefined mixin.
- *    ,
- * 7  | / @include media-breakpoint-up (md){
- * 8  | |     header {
- * 9  | |         height:600px;
- * 10 | |     }
- * 11 | \ }
- *    '
- *   scss\_index.scss 7:1  @import
- *   scss\custom.scss 7:9  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -17,5 +7,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a    \2577 \a 7  \2502  \250c  @include media-breakpoint-up (md){\a 8  \2502  \2502      header {\a 9  \2502  \2502          height:600px;\a 10 \2502  \2502      }\a 11 \2502  \2514  }\a    \2575 \a   scss\\_index.scss 7:1  @import\a   scss\\custom.scss 7:9  root stylesheet";
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 6 \2502  @import \"tratamientos\";\d\a   \2502          ^^^^^^^^^^^^^^\a   \2575 \a   scss\\custom.scss 6:9  root stylesheet";
 }
